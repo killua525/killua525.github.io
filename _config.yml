@@ -1,0 +1,50 @@
+# Site settings
+title: 建立的博客
+# email:
+description: > # this means to ignore newlines until "baseurl:"
+  建立的博客
+# baseurl: "" # the subpath of your site, e.g. /blog/
+url: https://killua525.github.io  # the base hostname & protocol for your site
+rss_url: /pages/feed.xml
+author: killua525
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'category'
+recent_num: 20
+
+# Social account
+# twitter: 
+# weibo: 
+github: killua525
+# instagram:
+# linkedin: 
+
+# avatar and Favicon
+# avatar:
+# favicon:
+
+# disqus config
+# disqus:
+#  shortname: suyan-zh
+
+# google analytics config
+# ga:
+#  id: UA-54767140-1
+#  url: 
+
+# Build settings
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+highlighter: rouge
+mathjax: disabled
+sass:
+  style: compressed
+
+# Jekyll Plugin
+# https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
